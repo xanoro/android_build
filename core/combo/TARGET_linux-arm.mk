@@ -71,7 +71,7 @@ endef
 
 $(combo_2nd_arch_prefix)TARGET_NO_UNDEFINED_LDFLAGS := -Wl,--no-undefined
 
-$(combo_2nd_arch_prefix)TARGET_arm_CFLAGS :=    -O2 \
+$(combo_2nd_arch_prefix)TARGET_arm_CFLAGS :=    -Ofast \
                         -fomit-frame-pointer \
                         -fstrict-aliasing    \
                         -funswitch-loops
