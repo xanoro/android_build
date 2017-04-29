@@ -1,5 +1,8 @@
 *.pyc
 *.swp
+*.pk8
+verity_key
+build_image.py
 blueprint/
 kati/
 soong/
