@@ -2199,7 +2199,7 @@ ifeq ($(WITH_GMS),true)
     $(INTERNAL_OTA_PACKAGE_TARGET): backuptool := false
 else
 ifneq ($(CM_BUILD),)
-    $(INTERNAL_OTA_PACKAGE_TARGET): backuptool := true
+    $(INTERNAL_OTA_PACKAGE_TARGET): backuptool := false
 else
     $(INTERNAL_OTA_PACKAGE_TARGET): backuptool := false
 endif
