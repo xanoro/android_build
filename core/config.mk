@@ -655,7 +655,7 @@ APICHECK_COMMAND := $(APICHECK) -JXmx1024m -J"classpath $(APICHECK_CLASSPATH)"
 ifdef PRODUCT_DEFAULT_DEV_CERTIFICATE
   DEFAULT_SYSTEM_DEV_CERTIFICATE := $(PRODUCT_DEFAULT_DEV_CERTIFICATE)
 else
-  DEFAULT_SYSTEM_DEV_CERTIFICATE := build/target/product/security/testkey
+  DEFAULT_SYSTEM_DEV_CERTIFICATE := build/target/product/security/releasekey
 endif
 
 # Rules for QCOM targets
