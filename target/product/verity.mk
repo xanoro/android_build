@@ -29,5 +29,7 @@ ifneq (,$(user_variant))
     PRODUCT_VERITY_SIGNING_KEY := build/target/product/security/verity
 
     PRODUCT_PACKAGES += \
-            verity_key
+            verity_key \
+            slideshow \
+            verity_warning_images
 endif
